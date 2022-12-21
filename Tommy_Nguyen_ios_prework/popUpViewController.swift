@@ -30,7 +30,7 @@ class popUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        introductionLabel.text = firstName
+        introductionLabel.text = firstName + " Introduction"
         introductionTextView.text = introduction
         movieImageView.image = UIImage(named: favMovie)
         movieImageView.contentMode = .scaleToFill
