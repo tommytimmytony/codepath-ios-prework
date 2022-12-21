@@ -1,0 +1,60 @@
+
+/* Class = "UIButton"; configuration.subtitle = "(Save Data)"; ObjectID = "MV7-EH-nst"; */
+"MV7-EH-nst.configuration.subtitle" = "(Save Data)";
+
+/* Class = "UIButton"; configuration.title = "Introduce Self"; ObjectID = "MV7-EH-nst"; */
+"MV7-EH-nst.configuration.title" = "Introduce Self";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MV7-EH-nst"; */
+"MV7-EH-nst.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; NQT-ZC-a9M.segmentTitles[0] = "First"; ObjectID = "NQT-ZC-a9M"; */
+"NQT-ZC-a9M.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; NQT-ZC-a9M.segmentTitles[1] = "Second"; ObjectID = "NQT-ZC-a9M"; */
+"NQT-ZC-a9M.segmentTitles[1]" = "Second";
+
+/* Class = "UISegmentedControl"; NQT-ZC-a9M.segmentTitles[2] = "Third"; ObjectID = "NQT-ZC-a9M"; */
+"NQT-ZC-a9M.segmentTitles[2]" = "Third";
+
+/* Class = "UISegmentedControl"; NQT-ZC-a9M.segmentTitles[3] = "Fourth"; ObjectID = "NQT-ZC-a9M"; */
+"NQT-ZC-a9M.segmentTitles[3]" = "Fourth";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "Ola-rh-6ub"; */
+"Ola-rh-6ub.placeholder" = "Last Name";
+
+/* Class = "UILabel"; text = "School"; ObjectID = "WeW-Kt-MGY"; */
+"WeW-Kt-MGY.text" = "School";
+
+/* Class = "UILabel"; text = "First "; ObjectID = "bK3-Qn-Pdu"; */
+"bK3-Qn-Pdu.text" = "First ";
+
+/* Class = "UISegmentedControl"; oGv-FD-QtR.segmentTitles[0] = "Red"; ObjectID = "oGv-FD-QtR"; */
+"oGv-FD-QtR.segmentTitles[0]" = "Red";
+
+/* Class = "UISegmentedControl"; oGv-FD-QtR.segmentTitles[1] = "Blue"; ObjectID = "oGv-FD-QtR"; */
+"oGv-FD-QtR.segmentTitles[1]" = "Blue";
+
+/* Class = "UISegmentedControl"; oGv-FD-QtR.segmentTitles[2] = "Third"; ObjectID = "oGv-FD-QtR"; */
+"oGv-FD-QtR.segmentTitles[2]" = "Third";
+
+/* Class = "UISegmentedControl"; oGv-FD-QtR.segmentTitles[3] = "Fourth"; ObjectID = "oGv-FD-QtR"; */
+"oGv-FD-QtR.segmentTitles[3]" = "Fourth";
+
+/* Class = "UITextField"; placeholder = "School Name"; ObjectID = "ocn-Tk-wjP"; */
+"ocn-Tk-wjP.placeholder" = "School Name";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ppN-iz-uWH"; */
+"ppN-iz-uWH.text" = "0";
+
+/* Class = "UILabel"; text = "Last "; ObjectID = "raU-Iv-Ni1"; */
+"raU-Iv-Ni1.text" = "Last ";
+
+/* Class = "UILabel"; text = "Pets"; ObjectID = "rps-MX-hot"; */
+"rps-MX-hot.text" = "Pets";
+
+/* Class = "UILabel"; text = "More pets?"; ObjectID = "tGn-dM-Qyj"; */
+"tGn-dM-Qyj.text" = "More pets?";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "uS3-j3-cB8"; */
+"uS3-j3-cB8.placeholder" = "First Name";
