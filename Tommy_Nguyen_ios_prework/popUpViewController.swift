@@ -37,7 +37,7 @@ class popUpViewController: UIViewController {
         activityImageView.image = UIImage(named: favActivity)
         activityImageView.contentMode = .scaleToFill
         changeViewColor(colorType: favColor)
-        changeFontFamilyStyle(fontStyle: chosenTrait, fontSize: chosenTraitSize)
+        changeFontFamilyStyle(fontStyle: chosenTrait, fontSize: 18.0)
     }
     
     func changeViewColor(colorType color: String){

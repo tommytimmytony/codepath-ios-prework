@@ -41,6 +41,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var activityImage: UIImageView!
     @IBOutlet weak var movieImage: UIImageView!
+    @IBOutlet weak var introButton: UIButton!
+    @IBOutlet weak var introImage: UIImageView!
     
     // favColorPicker option
     let colors = ["White","Red", "Blue", "Green", "Yellow", "Pink", "Purple", "Black", "Orange"]
@@ -61,7 +63,8 @@ class ViewController: UIViewController {
     // Favorite Movie
     private var favMovie = ""
     
-
+    // Intro Slide number
+    var introSlideNum = 0
     // Store data in UserDefault
     let userDefaults = UserDefaults()
     // Global data to Pass to another View
@@ -134,17 +137,41 @@ class ViewController: UIViewController {
     }
 
     
+    @IBAction func introButtonDidTapped(_ sender: Any) {
+        switch introSlideNum {
+            case 0:
+            introImage.image = UIImage(named: "Vietnam flag")
+            introButton.setTitle("I was born in Vietnam", for: .normal)
+            case 1:
+            introImage.image = UIImage(named: "Texas flag")
+            introButton.setTitle("My home is now in Texas", for: .normal)
+            case 2:
+            introImage.image = UIImage(named: "oreo")
+            introButton.setTitle("I have a little puppy named Oreo", for: .normal)
+            case 3:
+            introImage.image = UIImage(named: "UTSALogo")
+            introButton.setTitle("I'm currently studying at UTSA", for: .normal)
+            default:
+            break
+        }
+        if introSlideNum > 3{
+            introSlideNum = 0
+        }
+        else {
+            introSlideNum += 1
+        }
+    }
     
     @IBAction func traitSegmentControlAction(_ sender: UISegmentedControl) {
         switch traitSegmentedControl.selectedSegmentIndex {
             case 0:
             chosenTrait = "Academy Engraved LET"
-            chosenTraitSize = 20.0
-            changeFontFamilyStyle(fontStyle: "Academy Engraved LET", fontSize: 20.0)
+            chosenTraitSize = 17.0
+            changeFontFamilyStyle(fontStyle: "Academy Engraved LET", fontSize: 17.0)
             case 1:
             chosenTrait = "Snell Roundhand"
-            chosenTraitSize = 22.0
-            changeFontFamilyStyle(fontStyle: "Snell Roundhand", fontSize: 22.0 )
+            chosenTraitSize = 17.0
+            changeFontFamilyStyle(fontStyle: "Snell Roundhand", fontSize: 17.0 )
             case 2:
             chosenTrait = "Arial Rounded MT Bold"
             chosenTraitSize = 17.0
@@ -252,12 +279,22 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
             changeEdgesColor(colorType: favColor)
             userDefaults.set(favColor, forKey: "favColorKey")
         case 1:
-            favActivity = activities[row]
+            if row == 0 {
+                favActivity = "left arrow"
+            }
+            else {
+                favActivity = activities[row]
+            }
             activityImage.image = UIImage(named: favActivity)
             activityImage.contentMode = .scaleToFill
             userDefaults.set(favActivity, forKey: "favActivityKey")
         case 2:
-            favMovie = movies[row]
+            if row == 0 {
+                favMovie = "up arrow"
+            }
+            else {
+                favMovie = movies[row]
+            }
             movieImage.image = UIImage(named: favMovie)
             movieImage.contentMode = .scaleToFill
             userDefaults.set(favMovie, forKey: "favMovieKey")
