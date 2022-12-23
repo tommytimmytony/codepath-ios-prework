@@ -18,7 +18,7 @@ Time spent: **24** hours spent in total
 
 Here's a walkthrough of implemented features:
 
-<img src='AndroidWalkthrough.gif' title='Video Walkthrough' width='400' height='600' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='400' height='600' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap  
