@@ -21,4 +21,4 @@ Hello app is an app that allow user to introduce themselves through their inputs
 
 - [X] 1. User can tap a button to change the color of the background view
 - [X] 3. User can select on additional buttons that provide more info about the user. Example: more textfields, a different alert box, etc.
-- [X] 4. Any stylistic changes that are not default options (incorporate a scrollview, change picture programmatically with a button, design a custom popUp)
+- [X] 4. Any stylistic changes that are not default options (incorporate a scrollview, change picture programmatically with a button, design a custom popUp, used UserDefaults to save data)
